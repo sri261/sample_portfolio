@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+/* -------------------------------------------- */
+#hero {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/hero.webp);
+  height: 100vh;
+}
+
+.hero-nav {
+  /* padding-top: 10px; */
+  background-color: white;
+  color: black;
+}
+.hero-heading {
+  margin-top: 150px;
+  color: white;
+  font-size: 500%;
+}
+.hero-subtext {
+  color: white;
+  font-size: 300%;
+}
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+#about {
+  height: 100vh;
+}
+/* ----------------------------------------------------- */ ;
