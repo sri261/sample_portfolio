@@ -41,15 +41,8 @@ a {
   color: white;
   background-color: orangered;
 }
-.menu {
-  position: relative;
-  float: right;
-  width: 200px;
-  background-color: #f1f1f1;
-  width: 40%px;
-}
-.menu a {
-  color: black;
+.navbar-collapse {
+  width: 100%;
 }
 .hero button {
   margin-top: 15vh;
@@ -75,7 +68,7 @@ a {
 /* ====== about========= */
 /* ----------------------------------------------------- */
 #about {
-  background-color: rgb(199, 199, 199);
+  background-color: #dddddd;
   height: 100vh;
 }
 .about-content {
@@ -102,7 +95,7 @@ a {
 
 .img-thumbnail {
   height: 20vh;
-  background-color: rgb(199, 199, 199);
+  background-color: #dddddd;
   border: none;
   padding: 10px;
   margin-bottom: 120px;
@@ -112,7 +105,7 @@ a {
 /* ----------------------------------------------------- */
 #projects {
   height: 100vh;
-  background-color: #e8e8e8;
+  background-color: #cccccc;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -160,72 +153,6 @@ a {
   color: black;
 }
 .card-footer {
-  margin-top: 100px;
   background-color: #e8e8e8;
   text-align: center;
 }
-/* 
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 1023px) {
-  .navbar-nav {
-    position: relative;
-    left: 30%;
-  }
-  .about-content {
-   
-  }
-  .about-text {
-    margin-top: 15vh;
-    padding: 30px;
-  }
-  .img-thumbnail {
-    height: 16vh;
-    padding: 10px;
-    margin-bottom: 60px;
-  }
-
-  .card {
-    height: 70%;
-    width: 30%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .card {
-    height: 60%;
-    width: 40%;
-  }
-  .about-content {
-    flex-direction: column;
-  }
-  .about-text {
-    width: 100%;
-  }
-  .about-thumbnails {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8vh;
-  }
-}
-@media only screen and (max-width: 660px) {
-  .about-thumbnails {
-    margin-top: 6vh;
-    justify-content: center;
-  }
-  .img-thumbnail {
-    height: 12vh;
-    padding: 10px;
-    margin-bottom: 60px;
-  }
-  .card {
-    height: 50%;
-    width: 50%;
-  }
-  .card-list {
-    margin-top: 10%;
-    font-size: 120%;
-  }
-}
-@media only screen and (max-width: 480px) {
-} */
