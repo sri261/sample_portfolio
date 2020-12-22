@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-h4 {
-}
 /* -------------------------------------------- */
 #hero {
   background-attachment: fixed;
@@ -12,11 +10,16 @@ h4 {
   height: 100vh;
 }
 
-.hero-nav {
-  /* padding-top: 10px; */
-  background-color: white;
-  color: black;
+.navbar {
+  position: relative;
+  top: 20px;
+  background-color: #f1f1f1;
 }
+.navbar-nav {
+  position: relative;
+  left: 35%;
+}
+
 .hero-heading {
   margin-top: 150px;
   color: white;
@@ -24,8 +27,9 @@ h4 {
 }
 .hero-subtext {
   color: white;
-  font-size: 300%;
+  font-size: 200%;
 }
+
 /* ----------------------------------------------------- */
 /* ----------------------------------------------------- */
 #about {
