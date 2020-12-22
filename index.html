@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,6 +14,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
 
     <title>Sriharsh Portfolio</title>
   </head>
@@ -19,6 +23,7 @@
     <!-- -------------------------------------------------------------------------------------------------------------------------- -->
     <section id="hero">
       <!-------------------Navbar------------------------------->
+
       <nav class="navbar navbar-expand-md mx-4 p-1">
         <span class="navbar-brand mx-2 logo">Sriharsh</span>
         <button
@@ -27,7 +32,7 @@
           data-toggle="collapse"
           data-target="#collapsibleNavbar"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="material-icons"> menu </span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
@@ -52,8 +57,13 @@
       <!-- <div class="container d-flex justify-content-center"> -->
       <div class="container text-center">
         <div class="hero">
-          <h1 class="hero-heading">Hey</h1>
+          <h1 class="hero-heading">Hello!</h1>
           <p class="hero-subtext">I'm a Web Developer</p>
+          <button type="button" class="btn btn-danger">
+            <a href="./Sriharsh Dubale.pdf" download="Sriharsh CV"
+              >Download CV</a
+            >
+          </button>
         </div>
       </div>
 
@@ -62,19 +72,167 @@
     <!-- ------------------------------------------------------------------------------------------------------------------ -->
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card"></div>
+      <div class="about-content">
+        <div class="about-text">
+          <h1>Hey there</h1>
+          <p>
+            le content of a page when looking at its layout. The point of using
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it
+            look like readable English. Many desktop publishing packages and web
+            page editors now use Lorem Ipsum as their default model text, and a
+            search for 'lorem
+          </p>
+        </div>
+        <div class="about-thumbnails">
+          <!-- <div class="grid-container"> -->
+          <div class="grid-item">
+            <img class="img-thumbnail" src="./images/react.svg" alt="react" />
           </div>
-          <div class="col"><div class="card"></div></div>
+          <div class="grid-item">
+            <img
+              src="./images/javascript.svg"
+              class="img-thumbnail"
+              alt="javascript"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./images/html-5.svg" class="img-thumbnail" alt="html5" />
+          </div>
+          <div class="grid-item">
+            <img src="./images/css3.svg" class="img-thumbnail" alt="css3" />
+          </div>
+          <div class="grid-item">
+            <img
+              src="./images/c-sharp.svg"
+              class="img-thumbnail"
+              alt="csharp"
+            />
+          </div>
+          <div class="grid-item">
+            <img
+              src="./images/Microsoft_.NET_logo.svg"
+              class="img-thumbnail"
+              alt="net"
+            />
+          </div>
+          <!-- </div> -->
         </div>
       </div>
+      <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+      <!-- <div class="container">
+        <div class="row">
+          <div
+            class="col col-md-12 d-flex flex-column align-self-center about-content"
+          >
+            <h1>Hey there</h1>
+            <p>
+              le content of a page when looking at its layout. The point of
+              using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem
+            </p>
+          </div>
+          <div class="col col-md-12">
+            <div class="grid-container">
+              <div class="grid-item">
+                <img
+                  class="img-thumbnail"
+                  src="./images/react.svg"
+                  alt="react"
+                />
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/javascript.svg"
+                  class="img-thumbnail"
+                  alt="javascript"
+                />
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/html-5.svg"
+                  class="img-thumbnail"
+                  alt="html5"
+                />
+              </div>
+              <div class="grid-item">
+                <img src="./images/css3.svg" class="img-thumbnail" alt="css3" />
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/c-sharp.svg"
+                  class="img-thumbnail"
+                  alt="csharp"
+                />
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/Microsoft_.NET_logo.svg"
+                  class="img-thumbnail"
+                  alt="net"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </section>
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
     <section id="projects">
-      <div class="container project-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/netflix-clone.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/todo.jpg"
+              alt="Second slide"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/widefire.jpg"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/flag-quiz.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/todo.jpg"
+              alt="Second slide"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="d-block w-100 my-5"
+              src="./images/movieseatbooking.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container project-slider">
         <div id="project-slides" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -120,23 +278,37 @@
             ><span class="carousel-control-next-icon" aria-hidden="true"></span
           ></a>
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
     <section id="contact" class="d-flex align-items-center">
-      <div class="card w-25 h-75 mx-auto card-contact">
-        <div class="card-header text-center"><h3>Contact</h3></div>
-        <div class="card-body">contact details</div>
-        <div class="card-footer d-flex justify-content-center">
-          social icons
+      <!-- <div class="card w-25 h-75 mx-auto card-contact"> -->
+      <div class="card mx-auto card-contact">
+        <div class="card-content">
+          <h3 class="text-center my-4">Contact</h3>
+          <ul class="card-list">
+            <li><span>Phone - </span>109273646</li>
+            <li><span>Email - </span>sriharsh@gmail.com</li>
+            <li>
+              <span>Github - </span
+              ><a
+                href="https://github.com/sri261?tab=repositories"
+                target="_blank"
+                >sri261</a
+              >
+            </li>
+            <li><span>Linkedin - </span>sriharsh</li>
+          </ul>
         </div>
       </div>
     </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
